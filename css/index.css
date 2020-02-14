@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -98,18 +98,18 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items:center;
 }
 
 .bottom-content {
@@ -143,4 +143,76 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*My code*/
+
+*{
+    border: 0px solid red;
+}
+
+section.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+div.top-nav {
+    width: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.top-nav a {
+    text-decoration: none;
+    color:black;
+}
+div.top-nav a:hover {
+    color:blue;
+}
+img.imgbanner{
+    width: 100$;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+div.about-p {
+    padding:0 2% 2% 2%;
+    border-bottom: 1px dotted black;
+}
+section.modules {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.module-one {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    width: 48%;
+    border-bottom:1px dotted black;
+}
+div.module-one h2 {
+    padding-top: 2%;
+}
+div.lm-button{
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+div.lm-button a{
+    text-decoration: none;
+    color: black;
+    padding:5px 20px 5px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+div.lm-button a:hover {
+    color:lightgrey;
+    border: 2px solid lightgrey;
+}
+div.work-p {
+    padding:5% 2% 5% 2%;
+
 }
