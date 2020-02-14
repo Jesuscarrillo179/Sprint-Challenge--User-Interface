@@ -160,7 +160,7 @@ section.navbar{
 div.top-nav {
     width: 79%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
 }
 div.top-nav a {
@@ -215,4 +215,34 @@ div.lm-button a:hover {
 div.work-p {
     padding:5% 2% 5% 2%;
 
+}
+div.boxes #box1{
+    background:teal;
+}
+div.boxes #box2{
+    background:gold;
+}
+div.boxes #box3{
+    background:cadetblue;
+}
+div.boxes #box4{
+    background:coral;
+}
+div.boxes #box5{
+    background:crimson;
+}
+div.boxes #box6{
+    background:forestgreen;
+}
+div.boxes #box7{
+    background:darkorchid;
+}
+div.boxes #box8{
+    background:hotpink;
+}
+div.boxes #box9{
+    background:indigo;
+}
+div.boxes #box10{
+    background:dodgerblue;
 }
